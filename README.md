@@ -1,6 +1,6 @@
 # Automotive Sales Data Lakehouse — Medallion Architecture on Azure
 
-![Architecture](docs/Project Architecture.png)
+![Architecture](https://github.com/YoussefHamedddd/Automotive-Sales-Data-Lakehouse-on-Azure/blob/main/docs/Project%20Architecture.png)
 
 ---
 
@@ -59,7 +59,7 @@ Before running any pipeline, make sure the following **three containers exist** 
 
 The pipeline uses a **Watermark Pattern** to load only new records on each run instead of reloading all data.
 
-![ADF Incremental Loading Pipeline](docs/incremental_loading.png)
+![ADF Incremental Loading Pipeline](https://github.com/YoussefHamedddd/Automotive-Sales-Data-Lakehouse-on-Azure/blob/main/docs/ADF%20Pipline.png)
 
 Build the following pipeline activities in ADF in this exact order:
 
@@ -165,7 +165,7 @@ SCHEMA           = "gold"
 
 **Star Schema Design:**
 
-![Star Schema](docs/star_schema.png)
+![Star Schema](https://github.com/YoussefHamedddd/Automotive-Sales-Data-Lakehouse-on-Azure/blob/main/docs/Star%20Schema.png)
 
 ---
 
